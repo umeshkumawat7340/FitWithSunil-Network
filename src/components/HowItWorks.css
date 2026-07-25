@@ -1,0 +1,136 @@
+.hiw {
+  background: linear-gradient(180deg, var(--clr-bg) 0%, var(--clr-bg2) 100%);
+}
+.hiw__orb {
+  width: 400px; height: 400px;
+  background: rgba(167, 139, 250, 0.06);
+  top: 30%; left: -100px;
+}
+
+/* Header */
+.hiw__header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.hiw__header .section-subtitle { margin-inline: auto; }
+
+/* Steps */
+.hiw__steps {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 4rem;
+  position: relative;
+}
+
+.hiw__step {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  position: relative;
+}
+
+.hiw__step-num {
+  font-family: var(--font-head);
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1;
+  opacity: 0.5;
+  min-width: 60px;
+  text-align: right;
+}
+
+.hiw__step-line {
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, var(--clr-border) 0%, transparent 100%);
+  position: absolute;
+  left: 76px;
+  top: 50%;
+  display: none;
+}
+
+.hiw__step-card {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.5rem 2rem;
+  position: relative;
+  overflow: visible;
+}
+
+.hiw__step-icon {
+  font-size: 2rem;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.hiw__step-body { flex: 1; }
+
+.hiw__step-title {
+  font-family: var(--font-head);
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+}
+.hiw__step-desc {
+  font-size: 0.88rem;
+  color: var(--clr-text-muted);
+  line-height: 1.6;
+}
+
+.hiw__step-badge {
+  position: absolute;
+  top: -10px;
+  right: 1rem;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: #000;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+}
+
+/* Network Card */
+.hiw__network {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+  padding: 3rem;
+}
+.hiw__network-title {
+  font-family: var(--font-head);
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+.hiw__network-points {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin: 1.5rem 0;
+}
+.hiw__network-points li {
+  font-size: 0.9rem;
+  color: var(--clr-text-muted);
+}
+.hiw__network-img img {
+  width: 100%;
+  border-radius: var(--radius-md);
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .hiw__step-num { font-size: 2rem; min-width: 40px; }
+  .hiw__step-card { padding: 1.25rem; flex-direction: column; align-items: flex-start; gap: 0.75rem; }
+  .hiw__network { grid-template-columns: 1fr; }
+  .hiw__network-img { display: none; }
+}
