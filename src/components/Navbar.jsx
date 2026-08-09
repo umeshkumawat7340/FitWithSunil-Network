@@ -68,7 +68,7 @@ const Navbar = () => {
           }}
         >
          <img
-           src="public\logo.png.jpeg"
+           src="/logo.png.jpeg"
            alt="Logo"
            className="navbar__logo-icon"
           />

@@ -3,7 +3,7 @@ import './Products.css'
 const products = [
   {
     id: 'fruits',
-    img: 'public/fruits.png.jpeg',
+    img: '/fruits.png.jpeg',
     tag: '🍎 Healthy Choice',
     tagClass: 'product__tag--gold',
     name: 'Fresh & Natural Foods',
