@@ -162,7 +162,7 @@ section {
   color: #050a07;
   font-weight: 700;
   font-size: 0.7rem;
-  padding: 0.85rem 2rem;
+  padding: 0.65rem 0.6rem;
   border-radius: var(--radius-pill);
   transition: all 0.3s ease;
   box-shadow: 0 4px 24px rgba(34, 211, 111, 0.35);
