@@ -67,10 +67,14 @@ const Navbar = () => {
             handleNav("#hero");
           }}
         >
-          <span className="navbar__logo-icon">⚡</span>
+         <img
+           src="public\logo.png.jpeg"
+           alt="Logo"
+           className="navbar__logo-icon"
+          />
 
           <span className="navbar__logo-text">
-            Fitwith<span className="text-green">Sunil</span>
+            SUNILSUCCESS<span className="text-green">MANTRA</span>
           </span>
         </a>
 

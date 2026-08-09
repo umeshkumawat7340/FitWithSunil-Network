@@ -27,7 +27,8 @@ const Hero = () => {
         {/* Left Content */}
         <div className="hero__content">
           <div className="badge">
-            <span>⚡</span> #1 Fitness Network Marketing
+            <span>⚡</span> #1 क्या आप जिंदगी भर खुशहाल जीवनशैली चाहते हैं?
+
           </div>
           <h1 className="hero__title">
             Transform Your
@@ -36,7 +37,7 @@ const Hero = () => {
             <span className="hero__title-gold"> Income</span>
           </h1>
           <p className="hero__desc">
-            Join FitWithSunil Network — Promote premium fitness supplements, build your team,
+            Join Sunil Success Mantra Network — Promote premium fitness supplements, build your team,
             and earn <strong>unlimited residual income</strong>. Your health journey becomes
             your financial freedom.
           </p>
@@ -101,17 +102,17 @@ const Hero = () => {
             <div className="hero__badge hero__badge--1">
               <span className="hero__badge-icon">🔥</span>
               <div>
-                <strong>Best Seller</strong>
-                <span>Protein Max</span>
+                <strong>Director</strong>
+                <span></span>
               </div>
             </div>
-            <div className="hero__badge hero__badge--2">
+            {/* <div className="hero__badge hero__badge--2">
               <span className="hero__badge-icon">💰</span>
               <div>
                 <strong>Earn 30%</strong>
                 <span>Commission</span>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

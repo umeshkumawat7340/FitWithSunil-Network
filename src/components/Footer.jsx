@@ -12,8 +12,12 @@ const Footer = () => {
           {/* Brand */}
           <div className="footer__brand">
             <div className="footer__logo">
-              <span>⚡</span>
-              <span>FitWith<span className="text-green">Sunil</span></span>
+               <img
+               src="public\logo.png.jpeg"
+               alt="Logo"
+               className="navbar__logo-icon"
+              />
+              <span>SUNILSUCCESS<span className="text-green">MANTRA</span></span>
             </div>
             <p className="footer__tagline">
               Transform Your Body. Build Your Empire.
@@ -21,10 +25,10 @@ const Footer = () => {
             </p>
             <div className="footer__social">
               {[
-                { label: '📱 WhatsApp', href: `https://wa.me/${WHATSAPP_NUMBER}` },
-                { label: '📘 Facebook', href: '#' },
-                { label: '📸 Instagram', href: '#' },
-                { label: '▶️ YouTube', href: '#' },
+                { label: '📱 WhatsApp', href: `https://wa.me/917891455632` },
+                { label: '📘 Facebook', href: 'https://www.facebook.com/share/1DcvexBXyL/' },
+                { label: '📸 Instagram', href: 'https://www.instagram.com/sunil.success.mantra?igsh=aGRwc20yeGowNXI0' },
+                { label: '▶️ YouTube', href: 'https://youtube.com/@sunilsuccessmantra?si=bwCWXk6vdW_G9s1i' },
               ].map(s => (
                 <a key={s.label} href={s.href} className="footer__social-link" target="_blank" rel="noopener noreferrer">
                   {s.label}
@@ -58,9 +62,9 @@ const Footer = () => {
             <h4 className="footer__col-title">Products</h4>
             <ul className="footer__links">
               {[
-                'ProMax Whey Protein',
-                'EliteCharge Pre-Workout',
-                'VitalCore Multivitamin',
+                'Fresh & Natural Foods',
+                'With Healthy Nutrition',
+                'Nuts, Seeds & Superfoods',
                 'Mass Gainer Pro',
                 'BCAA Recovery Blend',
                 'Omega-3 Ultra',
@@ -78,7 +82,7 @@ const Footer = () => {
             <div className="footer__contact-items">
               {[
                 { icon: '📱', text: '+91 78914 55632' },
-                { icon: '📧', text: 'sunilkumawatbuteri@gmail.com' },
+                { icon: '📧', text: 'sunilsuccessmantra@gmail.com' },
                 { icon: '📍', text: 'Jaipur, Rajasthan, India' },
                 { icon: '🕐', text: 'Mon–Sat: 9AM – 8PM IST' },
               ].map(c => (
@@ -89,7 +93,7 @@ const Footer = () => {
               ))}
             </div>
             <a
-              href={`https://wa.me/${WHATSAPP_NUMBER}?text=Hi%20Fitwithsunil%20Network!`}
+              href={`https://wa.me/917891455632?text=Hi%20Sunilsuccessmantra%20Network!`}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-whatsapp footer__wa-btn"
@@ -106,7 +110,7 @@ const Footer = () => {
         {/* Bottom */}
         <div className="footer__bottom">
           <p className="footer__copy">
-            © {new Date().getFullYear()} FitWithSunil Network. All rights reserved. |
+            © {new Date().getFullYear()} SUNIL SUCCESS MANTRA Network. All rights reserved. |
             <span className="text-muted"> Built with ❤️ for Fitness Entrepreneurs</span>
           </p>
           <p className="footer__disclaimer">

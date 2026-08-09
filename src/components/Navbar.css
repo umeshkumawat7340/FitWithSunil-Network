@@ -42,7 +42,11 @@
 }
 
 .navbar__logo-icon {
-  font-size: 1.4rem;
+  font-size: 0.2rem;
+  height: 50px;
+  background: #037012;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 /* Nav Links */

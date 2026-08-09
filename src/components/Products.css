@@ -14,6 +14,7 @@
 }
 .products__header .section-subtitle {
   margin-inline: auto;
+  color:forestgreen;
 }
 
 /* Grid */
@@ -74,18 +75,7 @@
   transform: scale(1.06) translateY(-5px);
 }
 
-.product__commission-badge {
-  position: absolute;
-  bottom: 0.75rem;
-  right: 0.75rem;
-  background: rgba(34,211,111,0.15);
-  border: 1px solid var(--clr-border);
-  color: var(--clr-green);
-  font-size: 0.75rem;
-  font-weight: 700;
-  padding: 0.3rem 0.7rem;
-  border-radius: var(--radius-pill);
-}
+
 
 /* Body */
 .product__body {
@@ -149,22 +139,7 @@
   border-top: 1px solid var(--clr-border);
   flex-wrap: wrap;
 }
-.product__pricing {
-  display: flex;
-  align-items: baseline;
-  gap: 0.5rem;
-}
-.product__price {
-  font-family: var(--font-head);
-  font-size: 1.5rem;
-  font-weight: 800;
-  color: var(--clr-green);
-}
-.product__old-price {
-  font-size: 0.9rem;
-  color: var(--clr-text-dim);
-  text-decoration: line-through;
-}
+
 .product__whatsapp {
   padding: 0.6rem 1.2rem;
   font-size: 0.82rem;

@@ -39,13 +39,13 @@ const Contact = () => {
       `🎯 Interest: ${form.interest === 'buy' ? 'Buy Products' : form.interest === 'join' ? 'Join as Distributor' : 'Both - Buy & Join'}\n` +
       (form.message ? `💬 Message: ${form.message}` : '')
     )
-    window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${msg}`, '_blank')
+    window.open(`https://wa.me/917891455632?text=${msg}`, '_blank')
     setSubmitted(true)
   }
 
   const openDirectWhatsApp = () => {
     const msg = encodeURIComponent('Hi FitPro Network! I want to know more about your products and the business opportunity. 🚀')
-    window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${msg}`, '_blank')
+    window.open(`https://wa.me/917891455632?text=${msg}`, '_blank')
   }
 
   if (submitted) {

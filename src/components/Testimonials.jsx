@@ -122,7 +122,7 @@ const Testimonials = () => {
               🚀 Join Free Today
             </button>
             <a
-              href="https://wa.me/+919876543210?text=Hi!%20I%20want%20to%20know%20more%20about%20FitPro%20Network"
+              href="https://wa.me/917891455632"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-whatsapp"

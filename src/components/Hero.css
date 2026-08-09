@@ -190,7 +190,7 @@
 .hero__image-ring::after  { bottom: 0; left: 50%; transform: translateX(-50%); }
 
 .hero__image {
-  width: 440px;
+  width: 300px;
   max-width: 100%;
   border-radius: var(--radius-lg);
   animation: float 6s ease-in-out infinite;

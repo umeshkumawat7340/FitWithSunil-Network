@@ -3,7 +3,7 @@ import './FloatingWhatsApp.css'
 const FloatingWhatsApp = () => {
   const open = () => {
     const msg = encodeURIComponent('Hi FitPro Network! 👋 I want to know more about your supplements and business opportunity.')
-    window.open(`https://wa.me/+919876543210?text=${msg}`, '_blank')
+    window.open(`https://wa.me/917891455632?text=${msg}`, '_blank')
   }
 
   return (
