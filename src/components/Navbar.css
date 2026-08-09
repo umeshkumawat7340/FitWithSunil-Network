@@ -157,6 +157,7 @@
 
   .navbar__hamburger {
     display: flex;
+    margin-left: auto;
   }
 
   .navbar__cta {
